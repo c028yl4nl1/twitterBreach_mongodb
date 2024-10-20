@@ -1,0 +1,10 @@
+[package]
+name = "TwitterDatabase"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+human_bytes = "0.4.3"
+mongodb = "*"
+tokio = { version = "1", features = ["full"] }
+libc = "0.2"
